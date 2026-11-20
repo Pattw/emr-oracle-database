@@ -1,0 +1,12 @@
+-- patient ID sequence 
+CREATE SEQUENCE seq_patient
+START WITH 1000
+INCREMENT BY 1;
+-- doctor id 
+CREATE SEQUENCE seq_doctor
+START WITH 200
+INCREMENT BY 1;
+-- billing
+CREATE SEQUENCE seq_billing
+START WITH 9000
+INCREMENT BY 1;
